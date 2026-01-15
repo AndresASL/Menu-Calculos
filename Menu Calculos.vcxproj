@@ -127,7 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CalcularDistancia.cpp" />
+    <ClCompile Include="CalcularTiempo.cpp" />
+    <ClCompile Include="CalcularVelocidad.cpp" />
     <ClCompile Include="MENU.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CalcularDistancia.h" />
+    <ClInclude Include="CalcularTiempo.h" />
+    <ClInclude Include="CalcularVelocidad.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

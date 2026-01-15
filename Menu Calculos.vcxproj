@@ -137,6 +137,9 @@
     <ClInclude Include="CalcularTiempo.h" />
     <ClInclude Include="CalcularVelocidad.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include=".github\copilot-instructions.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

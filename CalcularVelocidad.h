@@ -1,7 +1,7 @@
 #ifndef CALCULAR_VELOCIDAD_H
 #define CALCULAR_VELOCIDAD_H
 
-	void calcularVelocidad();
+void calcularVelocidad();
 
-#endif
+#endif // CALCULARVELOCIDAD_H
 

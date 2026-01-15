@@ -1,7 +1,7 @@
 #ifndef CALCULAR_DISTANCIA_H
 #define CALCULAR_DISTANCIA_H
 
-	void calcularDistancia();
+void calcularDistancia();
 
-#endif
+#endif // CALCULAR_DISTANCIA_H
 

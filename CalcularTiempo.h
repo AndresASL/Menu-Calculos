@@ -1,6 +1,6 @@
 #ifndef CALCULAR_TIEMPO_H
 #define CALCULAR_TIEMPO_H
 
-	void calcularTiempo();
+void calcularTiempo();
 
-#endif
+#endif // CALCULAR_TIEMPO_H

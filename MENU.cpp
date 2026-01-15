@@ -1,31 +1,31 @@
 #include <iostream>
 #include <iomanip>
-#include <calcularDistancia.h>
-#include <calcularTiempo.h>
-#include <calcularVelocidad.h>
-
+#include <limits>
+#include "calcularDistancia.h"
+#include "calcularTiempo.h"
+#include "calcularVelocidad.h"
 
 using namespace std;
 
-// Declaración de funciones de cada clase
-void calcularVelocidad();
-void calcularDistancia();
-void calcularTiempo();
-
 int main() {
-    int opcion;
+    int opcion = 0;
 
     do {
-        // Mostrar menú
         cout << "MENU\n";
         cout << "1. Calcular Velocidad (v = d/t)\n";
         cout << "2. Calcular Distancia (d = v*t)\n";
         cout << "3. Calcular Tiempo (t = d/v)\n";
         cout << "4. Salir\n";
         cout << "Seleccione una opcion: ";
-        cin >> opcion;
 
-        // Procesar opción seleccionada
+        if (!(cin >> opcion)) {
+            cout << "\nEntrada no válida. Introduzca un número entre 1 y 4.\n";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            opcion = 0;
+            continue;
+        }
+
         switch (opcion) {
         case 1:
             calcularVelocidad();
@@ -45,7 +45,7 @@ int main() {
         }
 
         cout << "\nPresione Enter para continuar...";
-        cin.ignore();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cin.get();
 
     } while (opcion != 4);

@@ -1,4 +1,4 @@
-#include "CalcularTiempo.h"
+#include <calcularTiempo.h>
 #include <iostream>
 #include <iomanip>
 

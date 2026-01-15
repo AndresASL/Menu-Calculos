@@ -1,8 +1,8 @@
 #include <iostream>
 #include <iomanip>
-#include <CalculatorDistancia.h>
-#include <CalculatorTiempo.h>
-#include <CalculatorVelocidad.h>
+#include <calcularDistancia.h>
+#include <calcularTiempo.h>
+#include <calcularVelocidad.h>
 
 
 using namespace std;

@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Menu Calculos.vcxproj" />
+  <Project Path="Menu Calculos.vcxproj" Id="4b77c081-be28-4def-a74f-8a02e8ec98c3" />
 </Solution>

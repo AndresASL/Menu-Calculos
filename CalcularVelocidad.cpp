@@ -7,9 +7,8 @@ using namespace std;
 void calcularVelocidad() {
     double distancia, tiempo, velocidad;
 
-    cout << "\n=== CALCULO DE VELOCIDAD ===\n";
-    cout << "Formula: Velocidad = Distancia / Tiempo\n\n";
-
+    cout << "\nCALCULO DE VELOCIDAD \n";
+  
     // Pedir distancia
     cout << "Ingrese la distancia (metros): ";
     cin >> distancia;

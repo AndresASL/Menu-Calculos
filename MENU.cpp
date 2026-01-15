@@ -17,14 +17,11 @@ int main() {
 
     do {
         // Mostrar menú
-        cout << "\n================================\n";
-        cout << "    CALCULOS FISICOS SIMPLES    \n";
-        cout << "================================\n";
+        cout << "MENU\n";
         cout << "1. Calcular Velocidad (v = d/t)\n";
         cout << "2. Calcular Distancia (d = v*t)\n";
         cout << "3. Calcular Tiempo (t = d/v)\n";
         cout << "4. Salir\n";
-        cout << "================================\n";
         cout << "Seleccione una opcion: ";
         cin >> opcion;
 
